@@ -12,11 +12,10 @@ public class RandomStringChooser
     public string getNext(){
       if (words.size() == 0){
         return "NONE"; 
-    }
+      }
     else{
-    int i = (int)(Math.random () * words.size()); 
-    return words.get(i); 
-    words.remove(i); 
+      int i = (int)(Math.random () * words.size()); 
+      return words.remove(i); 
     }
   }
   //Heads up! 
