@@ -2,8 +2,6 @@ import java.util.*;
 public class RandomStringChooser
 {
   /* to be implemented in part (a) */
-public class RandomStringChooser
-{
  private ArrayList<String> words;
  public RandomStringChooser(String[] wordArray)
  {
@@ -18,7 +16,7 @@ public class RandomStringChooser
  int i = (int)(Math.random() * words.size());
  return words.remove(i); 
  }
-} 
+ 
   //Heads up! 
   //You will get a very confusing error message until you have working code in part b as well
 }
