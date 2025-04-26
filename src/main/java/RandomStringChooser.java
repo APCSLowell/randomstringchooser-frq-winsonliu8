@@ -13,10 +13,8 @@ public class RandomStringChooser
       if (words.size() == 0){
         return "NONE"; 
       }
-    else{
       int i = (int)(Math.random () * words.size()); 
       return words.remove(i); 
-    }
   }
   //Heads up! 
   //You will get a very confusing error message until you have working code in part b as well
