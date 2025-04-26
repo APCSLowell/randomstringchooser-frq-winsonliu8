@@ -2,11 +2,12 @@ import java.util.*;
 public class RandomStringChooser
 {
   /* to be implemented in part (a) */
- private ArrayList<String> words;
- public RandomStringChooser(String[] wordArray)
+ private ArrayList <String> words;
+  //change array of strings "a" to arraylist of words
+ public RandomStringChooser(String[] a)
  {
  words = new ArrayList<String>();
- for (int i = 0; i < wordArray.length; i++)
+ for (int i = 0; i < words.size(); i++)
   //for (String w: wordArray)
   //words.add(w); 
    words.add(i);
