@@ -3,9 +3,9 @@ public class RandomStringChooser
 {
   /* to be implemented in part (a) */
   public class RandomStringChooser{
-    public ArrayList<String>words; 
-    public RandomStringChooser(wordArray[]){
-      words = new <String> wordArray; 
+    private ArrayList<String>words; 
+    public RandomStringChooser(String[] wordArray){
+      words = new ArrayList <String> words; 
       for (int i = 0; i < wordArray.size(); i++)
         words.add(i); 
     }
