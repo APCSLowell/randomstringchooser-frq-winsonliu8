@@ -7,7 +7,7 @@ public class RandomStringChooser
  {
  words = new ArrayList<String>();
  for (int i = 0; i < words.size(); i++)
-   words.add(w);
+   words.add(i);
  }
  public String getNext()
  {
