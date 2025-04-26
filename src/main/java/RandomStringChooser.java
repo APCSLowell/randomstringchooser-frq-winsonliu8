@@ -7,10 +7,9 @@ public class RandomStringChooser
  public RandomStringChooser(String[] a)
  {
  words = new ArrayList<String>();
- for (int i = 0; i < words.size(); i++)
-  //for (String w: wordArray)
-  //words.add(w); 
-   words.add(i);
+ for (int i = 0; i < a.length; i++){ 
+   words.add(a[i]); //a[i] is for index of array
+ }
  }
  public String getNext()
  {
