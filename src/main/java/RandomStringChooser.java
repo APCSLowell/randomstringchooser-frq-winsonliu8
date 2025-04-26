@@ -4,13 +4,13 @@ public class RandomStringChooser
   /* to be implemented in part (a) */
   public class RandomStringChooser{
     public ArrayList<String>words; 
-    public RandomStringChooser(wordArray{}){
+    public RandomStringChooser(wordArray[]){
       words = new <String> wordArray; 
       for (int i = 0; i < wordArray.size(); i++)
         words.add(i); 
     }
     public string getNext(){
-      if (words.size() == 0)
+      if (words.size() == 0){
         return "NONE"; 
     }
     else{
